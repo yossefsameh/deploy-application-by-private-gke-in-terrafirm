@@ -14,4 +14,8 @@ resource "google_compute_instance" "my-vm" {
     subnetwork = google_compute_subnetwork.management-subnet.id
    
   }
+  service_account {
+    email  = google_service_account.clustersa.email
+    scopes = ["cloud-platform"]
+  }
 }
