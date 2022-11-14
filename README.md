@@ -1,0 +1,1 @@
+# deploy-application-by-private-gke-in-terrafirm
