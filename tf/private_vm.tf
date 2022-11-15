@@ -15,7 +15,7 @@ resource "google_compute_instance" "my-vm" {
    
   }
   service_account {
-    email  = google_service_account.clustersa.email
+    email  = google_service_account.myvmsa.email
     scopes = ["cloud-platform"]
   }
 }

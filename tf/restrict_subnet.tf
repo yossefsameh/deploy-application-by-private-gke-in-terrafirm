@@ -5,6 +5,8 @@ resource "google_compute_subnetwork" "restricted-subnet" {
   network       = google_compute_network.my-vpc.id
 }
 
+
+
 # resource "google_compute_firewall" "egress-deny" {
 #   name    = "egress-deny"
 #   network = google_compute_network.my-vpc.name
@@ -13,16 +15,5 @@ resource "google_compute_subnetwork" "restricted-subnet" {
 #   deny {
 #     protocol = "all"
 #   }
-#   source_ranges = ["0.0.0.0/0"]
+#   destination_ranges = ["0.0.0.0/0"]
 # }
-
-resource "google_compute_firewall" "egress-deny" {
-  name    = "egress-deny"
-  network = google_compute_network.my-vpc.name
-  priority = 1000
-  direction = "EGRESS"
-  deny {
-    protocol = "all"
-  }
-  destination_ranges = ["0.0.0.0/0"]
-}
