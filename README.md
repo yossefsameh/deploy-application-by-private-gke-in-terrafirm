@@ -32,8 +32,10 @@
 
           
           
-          4- connect to cluster from instance
-          
+          4- connect to cluster
+ ![Screenshot 2022-11-16 161924](https://user-images.githubusercontent.com/43928828/202240797-9c42c97a-40f5-429c-b934-91ab14ebcf2c.png)
+ from instance
+ 
           
           5- check pods    
  ![Screenshot 2022-11-15 135523](https://user-images.githubusercontent.com/43928828/202166509-59cfb445-7795-4e4d-afd3-830b5a6ea330.png)
@@ -48,7 +50,10 @@
           2- use my custum image which i built from dockerfile
          
          
-          3- get into container and install gcloud and use vm service account
+          3- get into container and install gcloud and use vm service accoun
+![Screenshot 2022-11-16 163243](https://user-images.githubusercontent.com/43928828/202241089-27bc706b-4a73-4e3d-b1dc-af4ea37b9282.png)
+t
+ 
           
           
 ### hello world app delpoyment
