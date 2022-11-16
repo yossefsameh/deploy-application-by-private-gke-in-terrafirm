@@ -46,4 +46,9 @@
           
           
           2- use my custum image which i built from dockerfile
+         
+         
+          3- get into container and install gcloud and use vm service account
+          
+          
 
