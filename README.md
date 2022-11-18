@@ -1,6 +1,6 @@
-##   using terraform to build infrastructure in GCP
+#   using terraform to build infrastructure in GCP
 
-###  infrastructure
+##  infrastructure
 
 ####         1- create vpc with allow ssh and http firewall                              
          
@@ -20,7 +20,7 @@
 ####         6- create standard gke with service account (storage.admin) acceced only by managment subnet CIDR
         
 
-###  connect to cluster from instance
+##  connect to cluster from instance
 
 
 ####          1- ssh to my private instance     
