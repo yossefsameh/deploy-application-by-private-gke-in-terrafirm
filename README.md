@@ -44,7 +44,7 @@
  ![Screenshot 2022-11-15 135523](https://user-images.githubusercontent.com/43928828/202166509-59cfb445-7795-4e4d-afd3-830b5a6ea330.png)
 
 
-###  jenkins deployment
+##  jenkins deployment
 
 
 ####          1- install kubectl and docker using init containers in jenkins deployment file
@@ -59,6 +59,6 @@
  
           
           
-### app delpoyment
+## app delpoyment repo
 (https://github.com/yossefsameh/dockerize-application-by-jenkins/tree/master/)
 
